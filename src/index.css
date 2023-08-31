@@ -1,6 +1,6 @@
 body {
     background-color: #042a51;
-    min-height: 70vh;
+    height: 500px;
     padding: 1rem;
     box-sizing: border-box;
     display: flex;
@@ -11,13 +11,17 @@ body {
     text-align: center;
     font-size: 130%;
   }
+  @media screen and (min-width: 768px) {
+    body {
+        height:70vh;
+    }
+  }
   
   .container {
     max-width:1080px ;
     height: auto;
     min-height: 500px;
-    max-width: 500px;
-    min-width: 250px;
+ 
     background: #f1f5f8;
     background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
     background-size: 25px 25px;
